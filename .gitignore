@@ -1,0 +1,7 @@
+**.tiff
+**.tif
+!**/input_data/.gitkeep
+
+**/__pycache__/
+# Jupyter Notebook
+**/.ipynb_checkpoints
