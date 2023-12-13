@@ -2,6 +2,6 @@ geopandas
 shapely 
 rasterio 
 Pillow
-
 flask
-tensorflow
+flask-cors
+#tensorflow==2.15.0.post1
