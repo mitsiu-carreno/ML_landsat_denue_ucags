@@ -1,8 +1,11 @@
 import 'dart:async';
+import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:geovisor/infoLatLong.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:http/http.dart' as http;
+import 'package:logging/logging.dart';
 
 class Mapita extends StatefulWidget {
   const Mapita({super.key});
@@ -20,6 +23,8 @@ class _MapitaState extends State<Mapita> {
   final Completer<GoogleMapController> _controller =
       Completer<GoogleMapController>();
   List<Map<String, dynamic>> coordenadasYPredicciones = [];
+
+  final Logger _logger = Logger('_MapitaState');
 
   static const CameraPosition _kUniversidad = CameraPosition(
     target: LatLng(21.881715418726223, -102.30074117088638),
@@ -47,6 +52,7 @@ class _MapitaState extends State<Mapita> {
   };
   @override
   Widget build(BuildContext context) {
+    _setupLogging();
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
@@ -239,7 +245,14 @@ class _MapitaState extends State<Mapita> {
     );
   }
 
-  void _onMapTapped(LatLng latLng) {
+  void _onMapTapped(LatLng latLng) async {
+    latitud = latLng.latitude.toString();
+    longitud = latLng.longitude.toString();
+    print(latitud);
+    final apiUrl =
+        'http://localhost:5000/predict?lat=$latitud&lon=$longitud'; // Reemplaza con la URL real de tu API
+    final response = await http.get(Uri.parse(apiUrl));
+
     setState(() {
       _markers
           .removeWhere((marker) => marker.markerId.value == 'tapped_location');
@@ -252,17 +265,33 @@ class _MapitaState extends State<Mapita> {
         ),
       );
 
-      latitud = latLng.latitude.toString();
-      longitud = latLng.longitude.toString();
-
-      setState(() {
-        prediccion = "Holi";
-        coordenadasYPredicciones.add({
-          'latitud': latitud,
-          'longitud': longitud,
-          'prediccion': prediccion,
+      if (response.statusCode == 200) {
+        final Map<String, dynamic> data = json.decode(response.body);
+        setState(() {
+          prediccion = data.toString();
+          coordenadasYPredicciones.add({
+            'latitud': latitud,
+            'longitud': longitud,
+            'prediccion': prediccion,
+          });
+          coordenadasSeleccionadas = true;
         });
-      });
+      } else {
+        //_logger.severe('Error in the request to the API: ${response.statusCode}');
+        _logger.severe('Error en la petición a la API: ${response.statusCode}');
+        _logger.info('Cuerpo de la respuesta: ${response.body}');
+
+        setState(() {
+          prediccion = 'Error al obtener la predicción';
+          coordenadasYPredicciones.add({
+            'latitud': latitud,
+            'longitud': longitud,
+            'prediccion': 'Error al obtener la predicción',
+          });
+          coordenadasSeleccionadas = false;
+        });
+      }
+
       _gotoLocation();
     });
   }
@@ -271,6 +300,13 @@ class _MapitaState extends State<Mapita> {
     setState(() {
       latitud = "";
       longitud = "";
+    });
+  }
+
+  void _setupLogging() {
+    Logger.root.level = Level.ALL;
+    Logger.root.onRecord.listen((record) {
+      print('${record.level.name}: ${record.time}: ${record.message}');
     });
   }
 }
