@@ -1,0 +1,11 @@
+FROM docker.io/tensorflow/tensorflow:2.15.0.post1-gpu-jupyter
+
+WORKDIR /tf
+
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+EXPOSE 8888
+

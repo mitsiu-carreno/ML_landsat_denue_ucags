@@ -1,0 +1,5 @@
+geopandas 
+shapely 
+rasterio 
+Pillow
+scikit-learn

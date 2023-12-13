@@ -109,3 +109,8 @@ def GetImageCutout(col, row, size=3):
 def Predict(cutout):
     cutout = cutout.reshape(1, 3, 3, 6)
     return model.predict(cutout)
+
+
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
