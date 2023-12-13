@@ -41,14 +41,15 @@ def search():
 
     cutout = GetImageCutout(col_pixel, row_pixel)
 
-    result = Predict(cutout)
+    result = Predict(cutout)[0]
 
     print(result)
     print(result.shape)
-
+    
     ## ToDO Integrar "SCIAN_2023124_141359987.xlsx" (ref notebook de Andrea) para mostrar labels entendibles
 
-    return [col_pixel, row_pixel]
+    #return [col_pixel, row_pixel]
+    return {index[0]: str(v) for index, v in np.ndenumerate(result)}
 
 
 @app.errorhandler(400)
