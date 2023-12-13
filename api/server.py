@@ -17,7 +17,7 @@ ruta_landsat_tiff = "assets/imagen.tif"
 
 @app.route("/")
 def hello_world():
-    return "<p>Usage:</br>url/predict?lat=<XXXX:float>&lon=<YYYY:float></p>"
+    return "<p>Usage:</br>url/predict?lat=&lt;XXXX:float&gt;&lon=&lt;YYYY:float&gt;</p>"
 
 
 @app.route("/predict", methods=["GET"])
@@ -57,7 +57,7 @@ def search():
 def bad_request(e):
     # note that we set the 404 status explicitly
     return (
-        "<h1>Missing parameters</h1><p>You <strong>must</strong> specify lat and lon</p></br><p>Usage:</br>url/predict?lat=<XXXX:float>&lon=<YYYY:float></p>",
+        "<h1>Missing parameters</h1><p>You <strong>must</strong> specify lat and lon</p></br><p>Usage:</br>url/predict?lat=&lt;XXXX:float&gt;&lon=&lt;YYYY:float&gt;</p>",
         400,
     )
 
@@ -65,7 +65,7 @@ def bad_request(e):
 @app.errorhandler(406)
 def not_acceptable(e):
     return (
-        "<h1>Wrong parameters</h1><p>Lat and lon parameters should be <strong>numeric</strong> values</p></br><p>Usage:</br>url/predict?lat=<XXXX:float>&lon=<YYYY:float></p>",
+        "<h1>Wrong parameters</h1><p>Lat and lon parameters should be <strong>numeric</strong> values</p></br><p>Usage:</br>url/predict?lat=&lt;XXXX:float&gt;&lon=&lt;YYYY:float&gt;</p>",
         406,
     )
 
