@@ -39,8 +39,13 @@ def search():
     col_pixel, row_pixel = GetPixelFromCoords(lat, lon)
 
     ## ToDo Validate that lat, lon exists in image
+    print("Debug1")
+    print(col_pixel, row_pixel)
 
     cutout = GetImageCutout(col_pixel, row_pixel)
+
+    print("Debug")
+    print(cutout)
 
     result = Predict(cutout)[0]
 
