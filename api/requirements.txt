@@ -4,4 +4,5 @@ rasterio
 Pillow
 flask
 flask-cors
+scikit-learn
 #tensorflow==2.15.0.post1
