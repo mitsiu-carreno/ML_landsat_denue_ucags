@@ -95,35 +95,29 @@ class _MapitaState extends State<Mapita> {
                       ),
                     ],
                   ),
-                  Row(
+                  Wrap(
                     children: [
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: ElevatedButton(
-                            onPressed: _goToUniversity,
-                            child: const Text('Ir a la Universidad'),
-                          ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ElevatedButton(
+                          onPressed: _goToUniversity,
+                          child: const Text('Ir a la Universidad'),
                         ),
                       ),
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: ElevatedButton(
-                            onPressed: _goToINEGI,
-                            child: const Text('Ir al INEGI'),
-                          ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ElevatedButton(
+                          onPressed: _goToINEGI,
+                          child: const Text('Ir al INEGI'),
                         ),
                       ),
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: ElevatedButton(
-                            onPressed: _resetLocation,
-                            child: const Text(
-                              'Restablecer Zoom',
-                              textAlign: TextAlign.center,
-                            ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ElevatedButton(
+                          onPressed: _resetLocation,
+                          child: const Text(
+                            'Restablecer Zoom',
+                            textAlign: TextAlign.center,
                           ),
                         ),
                       ),
@@ -172,7 +166,7 @@ class _MapitaState extends State<Mapita> {
                                     ),
                                     ListTile(
                                       title: const Text(
-                                        'Predicción',
+                                        'Predicción:',
                                         style: TextStyle(
                                             fontWeight: FontWeight.bold),
                                       ),
