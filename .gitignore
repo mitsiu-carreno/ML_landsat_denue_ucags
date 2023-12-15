@@ -1,5 +1,6 @@
 **.tiff
 **.tif
+**.jp2
 !**/input_data/.gitkeep
 
 **/__pycache__/
