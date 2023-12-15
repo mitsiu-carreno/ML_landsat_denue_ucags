@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+  model:
+    build: 
+      context: ./model/
+      dockerfile: containerfile  # Asegúrate de tener un archivo Dockerfile en el directorio ./model/
+    container_name: model
+    ports:
+      - 8888:8888
+    volumes:
+      - ./model:/tf:Z
+    network_mode: host
+
+  api:
+    build: 
+      context: ./api/
+      dockerfile: containerfile  # Asegúrate de tener un archivo Dockerfile en el directorio ./api/
+    container_name: api
+    ports:  
+      - 5000:5000
+    volumes:
+      - ./api:/tf:Z
+    network_mode: host
+
+
