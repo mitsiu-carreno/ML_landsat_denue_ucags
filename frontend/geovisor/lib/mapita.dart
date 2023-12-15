@@ -126,58 +126,53 @@ class _MapitaState extends State<Mapita> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Expanded(
-                          child: DataTable(
-                            columns: const <DataColumn>[
-                              DataColumn(
-                                label: Expanded(
-                                  child: Text(
-                                    'Coordenadas Seleccionadas',
-                                    style:
-                                        TextStyle(fontStyle: FontStyle.italic),
-                                  ),
-                                ),
-                              ),
-                              DataColumn(
-                                label: Text(
-                                  'Predicción',
-                                  style: TextStyle(fontStyle: FontStyle.italic),
-                                ),
-                              ),
-                            ],
-                            rows: (coordenadasYPredicciones.isNotEmpty)
-                                ? List<DataRow>.generate(
-                                    coordenadasYPredicciones.length,
-                                    (index) => DataRow(
-                                      cells: <DataCell>[
-                                        DataCell(
-                                          Text(
-                                            'Latitud: ${coordenadasYPredicciones[index]['latitud']}\nLongitud: ${coordenadasYPredicciones[index]['longitud']}',
-                                          ),
+                          child: ListView.builder(
+                            itemCount: (coordenadasYPredicciones.isNotEmpty)
+                                ? coordenadasYPredicciones.length
+                                : 1,
+                            itemBuilder: (context, index) {
+                              if (coordenadasYPredicciones.isEmpty) {
+                                return const ListTile(
+                                  title:
+                                      Text('No hay coordenadas seleccionadas'),
+                                );
+                              }
+
+                              final coordenadas =
+                                  coordenadasYPredicciones[index];
+
+                              return Card(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    const ListTile(
+                                      title: Text(
+                                        'Coordenadas:',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
                                         ),
-                                        DataCell(
-                                          Text(
-                                            coordenadasYPredicciones[index]
-                                                ['prediccion'],
-                                          ),
-                                        ),
-                                      ],
+                                      ),
                                     ),
-                                  )
-                                : [
-                                    const DataRow(
-                                      cells: <DataCell>[
-                                        DataCell(
-                                          Text(
-                                            'No hay coordenadas seleccionadas',
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        DataCell(
-                                          Text(''),
-                                        ),
-                                      ],
+                                    ListTile(
+                                      title: Text(
+                                        'Latitud: ${coordenadas['latitud']}',
+                                      ),
+                                      subtitle: Text(
+                                        'Longitud: ${coordenadas['longitud']}',
+                                      ),
+                                    ),
+                                    ListTile(
+                                      title: const Text(
+                                        'Predicción',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold),
+                                      ),
+                                      subtitle: Text(coordenadas['prediccion']),
                                     ),
                                   ],
+                                ),
+                              );
+                            },
                           ),
                         ),
                       ],
@@ -248,18 +243,16 @@ class _MapitaState extends State<Mapita> {
   void _onMapTapped(LatLng latLng) async {
     latitud = latLng.latitude.toString();
     longitud = latLng.longitude.toString();
-    print(latitud);
-    final apiUrl =
-        'http://localhost:5000/predict?lat=$latitud&lon=$longitud'; // Reemplaza con la URL real de tu API
+    final apiUrl = 'http://localhost:5000/predict?lat=$latitud&lon=$longitud';
     final response = await http.get(Uri.parse(apiUrl));
 
     setState(() {
-      _markers
-          .removeWhere((marker) => marker.markerId.value == 'tapped_location');
+      final markerId =
+          MarkerId(DateTime.now().millisecondsSinceEpoch.toString());
 
       _markers.add(
         Marker(
-          markerId: const MarkerId('tapped_location'),
+          markerId: markerId,
           position: latLng,
           infoWindow: const InfoWindow(title: 'Localización Seleccionada.'),
         ),
