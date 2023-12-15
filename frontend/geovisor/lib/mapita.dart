@@ -19,6 +19,7 @@ class _MapitaState extends State<Mapita> {
   String longitud = "";
   dynamic prediccion;
   bool coordenadasSeleccionadas = false;
+  bool _mapaInteractivo = true;
   int init = 0;
   final Completer<GoogleMapController> _controller =
       Completer<GoogleMapController>();
@@ -57,6 +58,14 @@ class _MapitaState extends State<Mapita> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text("Geovisor"),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.info),
+            onPressed: () {
+              _mostrarDialogoDeGuia(context);
+            },
+          ),
+        ],
       ),
       body: Row(
         children: [
@@ -86,35 +95,29 @@ class _MapitaState extends State<Mapita> {
                       ),
                     ],
                   ),
-                  Row(
+                  Wrap(
                     children: [
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: ElevatedButton(
-                            onPressed: _goToUniversity,
-                            child: const Text('Ir a la Universidad'),
-                          ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ElevatedButton(
+                          onPressed: _goToUniversity,
+                          child: const Text('Ir a la Universidad'),
                         ),
                       ),
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: ElevatedButton(
-                            onPressed: _goToINEGI,
-                            child: const Text('Ir al INEGI'),
-                          ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ElevatedButton(
+                          onPressed: _goToINEGI,
+                          child: const Text('Ir al INEGI'),
                         ),
                       ),
-                      Expanded(
-                        child: Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: ElevatedButton(
-                            onPressed: _resetLocation,
-                            child: const Text(
-                              'Restablecer Zoom',
-                              textAlign: TextAlign.center,
-                            ),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ElevatedButton(
+                          onPressed: _resetLocation,
+                          child: const Text(
+                            'Restablecer Zoom',
+                            textAlign: TextAlign.center,
                           ),
                         ),
                       ),
@@ -126,58 +129,53 @@ class _MapitaState extends State<Mapita> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Expanded(
-                          child: DataTable(
-                            columns: const <DataColumn>[
-                              DataColumn(
-                                label: Expanded(
-                                  child: Text(
-                                    'Coordenadas Seleccionadas',
-                                    style:
-                                        TextStyle(fontStyle: FontStyle.italic),
-                                  ),
-                                ),
-                              ),
-                              DataColumn(
-                                label: Text(
-                                  'Predicción',
-                                  style: TextStyle(fontStyle: FontStyle.italic),
-                                ),
-                              ),
-                            ],
-                            rows: (coordenadasYPredicciones.isNotEmpty)
-                                ? List<DataRow>.generate(
-                                    coordenadasYPredicciones.length,
-                                    (index) => DataRow(
-                                      cells: <DataCell>[
-                                        DataCell(
-                                          Text(
-                                            'Latitud: ${coordenadasYPredicciones[index]['latitud']}\nLongitud: ${coordenadasYPredicciones[index]['longitud']}',
-                                          ),
+                          child: ListView.builder(
+                            itemCount: (coordenadasYPredicciones.isNotEmpty)
+                                ? coordenadasYPredicciones.length
+                                : 1,
+                            itemBuilder: (context, index) {
+                              if (coordenadasYPredicciones.isEmpty) {
+                                return const ListTile(
+                                  title:
+                                      Text('No hay coordenadas seleccionadas'),
+                                );
+                              }
+
+                              final coordenadas =
+                                  coordenadasYPredicciones[index];
+
+                              return Card(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    const ListTile(
+                                      title: Text(
+                                        'Coordenadas:',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
                                         ),
-                                        DataCell(
-                                          Text(
-                                            coordenadasYPredicciones[index]
-                                                ['prediccion'],
-                                          ),
-                                        ),
-                                      ],
+                                      ),
                                     ),
-                                  )
-                                : [
-                                    const DataRow(
-                                      cells: <DataCell>[
-                                        DataCell(
-                                          Text(
-                                            'No hay coordenadas seleccionadas',
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ),
-                                        DataCell(
-                                          Text(''),
-                                        ),
-                                      ],
+                                    ListTile(
+                                      title: Text(
+                                        'Latitud: ${coordenadas['latitud']}',
+                                      ),
+                                      subtitle: Text(
+                                        'Longitud: ${coordenadas['longitud']}',
+                                      ),
+                                    ),
+                                    ListTile(
+                                      title: const Text(
+                                        'Predicción:',
+                                        style: TextStyle(
+                                            fontWeight: FontWeight.bold),
+                                      ),
+                                      subtitle: Text(coordenadas['prediccion']),
                                     ),
                                   ],
+                                ),
+                              );
+                            },
                           ),
                         ),
                       ],
@@ -246,20 +244,21 @@ class _MapitaState extends State<Mapita> {
   }
 
   void _onMapTapped(LatLng latLng) async {
+    if (!_mapaInteractivo) {
+      return; // Evitar acciones en el mapa si no es interactivo
+    }
     latitud = latLng.latitude.toString();
     longitud = latLng.longitude.toString();
-    print(latitud);
-    final apiUrl =
-        'http://localhost:5000/predict?lat=$latitud&lon=$longitud'; // Reemplaza con la URL real de tu API
+    final apiUrl = 'http://localhost:5000/predict?lat=$latitud&lon=$longitud';
     final response = await http.get(Uri.parse(apiUrl));
 
     setState(() {
-      _markers
-          .removeWhere((marker) => marker.markerId.value == 'tapped_location');
+      final markerId =
+          MarkerId(DateTime.now().millisecondsSinceEpoch.toString());
 
       _markers.add(
         Marker(
-          markerId: const MarkerId('tapped_location'),
+          markerId: markerId,
           position: latLng,
           infoWindow: const InfoWindow(title: 'Localización Seleccionada.'),
         ),
@@ -307,6 +306,44 @@ class _MapitaState extends State<Mapita> {
     Logger.root.level = Level.ALL;
     Logger.root.onRecord.listen((record) {
       print('${record.level.name}: ${record.time}: ${record.message}');
+    });
+  }
+
+  void _mostrarDialogoDeGuia(BuildContext context) {
+    setState(() {
+      _mapaInteractivo = false; // Deshabilitar interacción con el mapa
+    });
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text("Guía de Uso del Geovisor"),
+          content: const Text(
+            "Para obtener las posibles unidades económicas, bastará con solo dar un clic en el mapa presente en la interfaz principal.\n\n"
+            "Tras esto, aparecerá una tarjetita a la derecha de la interfaz con la Latitud, Longitud y predicción del marcador agregado.\n\n"
+            "Si se desea mover a otras áreas de trabajo, presione los botones para moverse a dos distintas localizaciones del mapa.\n\n"
+            "Y por último, si se desea restablecer el zoom tras presionar el mapa, solo presione el botón de Restablecer Zoom.",
+            style: TextStyle(fontSize: 16.0),
+            textAlign: TextAlign.justify,
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop(false);
+              },
+              child: const Text("Cerrar"),
+            ),
+          ],
+        );
+      },
+    ).then((result) {
+      Future.delayed(const Duration(milliseconds: 10), () {
+        setState(() {
+          _mapaInteractivo =
+              true; // Habilitar interacción con el mapa después de un breve retraso
+        });
+      });
     });
   }
 }
