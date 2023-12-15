@@ -19,6 +19,7 @@ class _MapitaState extends State<Mapita> {
   String longitud = "";
   dynamic prediccion;
   bool coordenadasSeleccionadas = false;
+  bool _mapaInteractivo = true;
   int init = 0;
   final Completer<GoogleMapController> _controller =
       Completer<GoogleMapController>();
@@ -57,6 +58,14 @@ class _MapitaState extends State<Mapita> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: const Text("Geovisor"),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.info),
+            onPressed: () {
+              _mostrarDialogoDeGuia(context);
+            },
+          ),
+        ],
       ),
       body: Row(
         children: [
@@ -241,6 +250,9 @@ class _MapitaState extends State<Mapita> {
   }
 
   void _onMapTapped(LatLng latLng) async {
+    if (!_mapaInteractivo) {
+      return; // Evitar acciones en el mapa si no es interactivo
+    }
     latitud = latLng.latitude.toString();
     longitud = latLng.longitude.toString();
     final apiUrl = 'http://localhost:5000/predict?lat=$latitud&lon=$longitud';
@@ -300,6 +312,44 @@ class _MapitaState extends State<Mapita> {
     Logger.root.level = Level.ALL;
     Logger.root.onRecord.listen((record) {
       print('${record.level.name}: ${record.time}: ${record.message}');
+    });
+  }
+
+  void _mostrarDialogoDeGuia(BuildContext context) {
+    setState(() {
+      _mapaInteractivo = false; // Deshabilitar interacción con el mapa
+    });
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text("Guía de Uso del Geovisor"),
+          content: const Text(
+            "Para obtener las posibles unidades económicas, bastará con solo dar un clic en el mapa presente en la interfaz principal.\n\n"
+            "Tras esto, aparecerá una tarjetita a la derecha de la interfaz con la Latitud, Longitud y predicción del marcador agregado.\n\n"
+            "Si se desea mover a otras áreas de trabajo, presione los botones para moverse a dos distintas localizaciones del mapa.\n\n"
+            "Y por último, si se desea restablecer el zoom tras presionar el mapa, solo presione el botón de Restablecer Zoom.",
+            style: TextStyle(fontSize: 16.0),
+            textAlign: TextAlign.justify,
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop(false);
+              },
+              child: const Text("Cerrar"),
+            ),
+          ],
+        );
+      },
+    ).then((result) {
+      Future.delayed(const Duration(milliseconds: 10), () {
+        setState(() {
+          _mapaInteractivo =
+              true; // Habilitar interacción con el mapa después de un breve retraso
+        });
+      });
     });
   }
 }
