@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:geovisor/infoLatLong.dart';
@@ -256,18 +255,10 @@ class _MapitaState extends State<Mapita> {
       final markerId =
           MarkerId(DateTime.now().millisecondsSinceEpoch.toString());
 
-      _markers.add(
-        Marker(
-          markerId: markerId,
-          position: latLng,
-          infoWindow: const InfoWindow(title: 'Localización Seleccionada.'),
-        ),
-      );
-
       if (response.statusCode == 200) {
-        final Map<String, dynamic> data = json.decode(response.body);
+        final String data = response.body;
         setState(() {
-          prediccion = data.toString();
+          prediccion = data;
           coordenadasYPredicciones.add({
             'latitud': latitud,
             'longitud': longitud,
@@ -291,6 +282,13 @@ class _MapitaState extends State<Mapita> {
         });
       }
 
+      _markers.add(
+        Marker(
+          markerId: markerId,
+          position: latLng,
+          infoWindow: InfoWindow(title: prediccion),
+        ),
+      );
       _gotoLocation();
     });
   }
