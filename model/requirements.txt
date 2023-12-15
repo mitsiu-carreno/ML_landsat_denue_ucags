@@ -3,3 +3,5 @@ shapely
 rasterio 
 Pillow
 scikit-learn
+imgaug
+imbalanced-learn
