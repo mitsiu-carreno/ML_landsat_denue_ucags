@@ -18,3 +18,10 @@ services:
     volumes:
       - ./api:/tf:Z
     network_mode: host
+  
+  flutter:
+    build: ./frontend/geovisor/
+    container_name: frontend
+    ports:
+      - 9000:9000
+    network_mode: host
