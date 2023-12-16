@@ -1,7 +1,13 @@
-# Structure
+# Introducción
+Este repositorio tiene como finalidad generar un desarrollo tecnológico que permita elegir un punto de un mapa, y obtener una predicción del tipo de negocio/establecimiento predicho por una red neuronal.
+Consta de tres componentes:
+- Modelo: Carpeta donde se preprocesa, entrena y exporta el modelo de red neuronal encargada de aprender las características de los negocios/establecimientos para en base a ella generar una predicción de otros datos no antes vistos.
+- Api: Servidor web encargado de abstraer el modelo de la red neuronal, así como el preprocesamiento que debe realizar. Mientras ofrece una interfaz que puede consumir personas y dispositivos para obtener predicciones.
+- Front-end: Interfaz gráfica que permite a los usuarios elegir puntos en un mapa para conocer el resultado de predicción según la red neuronal.
+
 
 # Contenedores
-
+Este código también contiene una implementacion basada en contenedores los cuales se pueden levantar siguiendo las indicaciones siguientes:
 IMPORTANTE: `podman-compose` y `docker-compose` pueden intercambiarse según el software instalado
 
 ## Levantar todos los servicios (model, api, front)
