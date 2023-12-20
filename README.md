@@ -1,3 +1,5 @@
+[![Open Model In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mitsiu-carreno/ML_landsat_denue_ucags/blob/main/model/latest_neuronal_net.ipynb)
+
 # Introducción
 Este repositorio tiene como finalidad generar un desarrollo tecnológico que permita elegir un punto de un mapa, y obtener una predicción del tipo de negocio/establecimiento predicho por una red neuronal.
 Consta de tres componentes:
