@@ -1,0 +1,616 @@
+year_month,estado,conteo
+2022-01,Aguascalientes,17728
+2022-01,Baja California,58706
+2022-01,Campeche,9872
+2022-01,Chiapas,22073
+2022-01,Chihuahua,28346
+2022-01,Ciudad De México,9
+2022-01,Ciudad de México,319
+2022-01,Coahuila,40582
+2022-01,Colima,6476
+2022-01,Durango,15218
+2022-01,Estado de México,37
+2022-01,Guanajuato,47064
+2022-01,Guerrero,24470
+2022-01,Hidalgo,57526
+2022-01,Jalisco,131971
+2022-01,MORELOS,1
+2022-01,Michoacán,21920
+2022-01,Morelos,54963
+2022-01,Nayarit,11604
+2022-01,Nuevo León,153987
+2022-01,OAXACA,2
+2022-01,Oaxaca,23750
+2022-01,PUEBLA,2
+2022-01,Puebla,70602
+2022-01,Querétaro,54074
+2022-01,Quintana Roo,67925
+2022-01,San Luis Potosí,25136
+2022-01,Sinaloa,39291
+2022-01,Sonora,47808
+2022-01,Tabasco,36616
+2022-01,Tamaulipas,59314
+2022-01,Tlaxcala,6922
+2022-01,VeraCruz,1
+2022-01,Veracruz,68214
+2022-01,Yucatán,45225
+2022-01,Zacatecas,9588
+2022-01,baja california,674
+2022-01,chihuahua,1
+2022-01,ciudad de México,1
+2022-01,durango,1
+2022-01,guerrero,6
+2022-01,hidalgo,2
+2022-01,jalisco,2
+2022-01,morelos,756
+2022-01,oaxaca,1
+2022-01,puebla,2
+2022-01,quintana roo,1
+2022-01,sinaloa,4
+2022-01,tabasco,2
+2022-01,veracruz,5
+2022-01,zacatecas,1
+2022-02,Aguascalientes,14477
+2022-02,Baja California,64685
+2022-02,CIUDAD DE MÉXICO,2
+2022-02,Campeche,8893
+2022-02,Chiapas,20226
+2022-02,Chihuahua,29572
+2022-02,Ciudad De México,9
+2022-02,Ciudad de México,498
+2022-02,Coahuila,32054
+2022-02,Colima,8467
+2022-02,Durango,13969
+2022-02,Estado De México,1
+2022-02,Estado de México,55
+2022-02,Guanajuato,46293
+2022-02,Guerrero,24568
+2022-02,Hidalgo,58860
+2022-02,Jalisco,120663
+2022-02,Michoacán,20308
+2022-02,Morelos,52834
+2022-02,Nayarit,9438
+2022-02,Nuevo León,162084
+2022-02,Oaxaca,22437
+2022-02,PUEBLA,1
+2022-02,Puebla,64485
+2022-02,Querétaro,47660
+2022-02,Quintana Roo,61960
+2022-02,San Luis Potosí,23409
+2022-02,Sinaloa,33176
+2022-02,Sonora,46526
+2022-02,TLAXCALA,4
+2022-02,Tabasco,31685
+2022-02,Tamaulipas,42646
+2022-02,Tlaxcala,5378
+2022-02,Veracruz,84172
+2022-02,Yucatán,41787
+2022-02,Zacatecas,11489
+2022-02,baja California,2
+2022-02,guanajuato,1
+2022-02,guerrero,1
+2022-02,hidalgo,8
+2022-02,jalisco,2
+2022-02,morelos,401
+2022-02,nayarit,1
+2022-02,oaxaca,1
+2022-02,puebla,2
+2022-02,quintana roo,1
+2022-02,sinaloa,1
+2022-02,sonora,1
+2022-02,tamaulipas,1
+2022-02,tlaxcala,1
+2022-02,veracruz,1
+2022-03,Aguascalientes,16120
+2022-03,Baja California,79853
+2022-03,CIUDAD DE MÉXICO,1
+2022-03,Campeche,11402
+2022-03,Chiapas,23293
+2022-03,Chihuahua,28140
+2022-03,Ciudad De México,27
+2022-03,Ciudad de México,473
+2022-03,Coahuila,35351
+2022-03,Colima,7333
+2022-03,Durango,14497
+2022-03,Estado De México,5
+2022-03,Estado de México,66
+2022-03,Guanajuato,56590
+2022-03,Guerrero,23672
+2022-03,Hidalgo,75714
+2022-03,Jalisco,151692
+2022-03,Michoacán,25753
+2022-03,Morelos,60678
+2022-03,Nayarit,10580
+2022-03,Nuevo León,178012
+2022-03,Oaxaca,24569
+2022-03,Puebla,82028
+2022-03,Querétaro,65338
+2022-03,Quintana Roo,72481
+2022-03,SONORA,1
+2022-03,San Luis Potosí,25630
+2022-03,Sinaloa,43359
+2022-03,Sonora,57596
+2022-03,Tabasco,34801
+2022-03,Tamaulipas,47744
+2022-03,Tlaxcala,8083
+2022-03,VeraCruz,1
+2022-03,Veracruz,73399
+2022-03,Yucatán,51660
+2022-03,Zacatecas,10874
+2022-03,baja California,1
+2022-03,campeche,1
+2022-03,chihuahua,1
+2022-03,ciudad de México,6
+2022-03,guerrero,2
+2022-03,hidalgo,4
+2022-03,jalisco,5
+2022-03,morelos,770
+2022-03,oaxaca,4
+2022-03,puebla,3
+2022-03,quintana roo,3
+2022-03,sinaloa,6
+2022-03,sonora,3
+2022-03,tabasco,1
+2022-03,tlaxcala,1
+2022-03,veracruz,5
+2022-03,zacatecas,1
+2022-04,Aguascalientes,18339
+2022-04,Baja California,75992
+2022-04,CIUDAD DE MÉXICO,9
+2022-04,Campeche,14387
+2022-04,Chiapas,22563
+2022-04,Chihuahua,27842
+2022-04,Ciudad De México,10
+2022-04,Ciudad de México,441
+2022-04,Coahuila,34928
+2022-04,Colima,7295
+2022-04,Durango,16324
+2022-04,Estado De México,7
+2022-04,Estado de México,57
+2022-04,Guanajuato,51901
+2022-04,Guerrero,26081
+2022-04,Hidalgo,82380
+2022-04,Jalisco,147613
+2022-04,MORELOS,2
+2022-04,Michoacán,23244
+2022-04,Morelos,55452
+2022-04,Nayarit,9973
+2022-04,Nuevo León,172352
+2022-04,Oaxaca,24667
+2022-04,Puebla,76578
+2022-04,Querétaro,56821
+2022-04,Quintana Roo,70226
+2022-04,SONORA,1
+2022-04,San Luis Potosí,31732
+2022-04,Sinaloa,38357
+2022-04,Sonora,58831
+2022-04,Tabasco,34275
+2022-04,Tamaulipas,43442
+2022-04,Tlaxcala,7706
+2022-04,VeraCruz,2
+2022-04,Veracruz,75262
+2022-04,Yucatán,51250
+2022-04,Zacatecas,11332
+2022-04,aguascalientes,1
+2022-04,campeche,1
+2022-04,chiapas,4
+2022-04,ciudad de México,3
+2022-04,colima,1
+2022-04,durango,1
+2022-04,hidalgo,1
+2022-04,jalisco,4
+2022-04,morelos,853
+2022-04,nayarit,2
+2022-04,oaxaca,2
+2022-04,puebla,4
+2022-04,sinaloa,4
+2022-04,sonora,2
+2022-04,tabasco,1
+2022-04,tamaulipas,1
+2022-04,tlaxcala,1
+2022-04,veracruz,3
+2022-05,Aguascalientes,19143
+2022-05,Baja California,75012
+2022-05,CIUDAD DE MÉXICO,1
+2022-05,Campeche,12731
+2022-05,Chiapas,21054
+2022-05,Chihuahua,32313
+2022-05,Ciudad De México,3
+2022-05,Ciudad de México,502
+2022-05,Coahuila,36132
+2022-05,Colima,7541
+2022-05,Durango,17003
+2022-05,ESTADO DE MÉXICO,1
+2022-05,Estado De México,8
+2022-05,Estado de México,40
+2022-05,Guanajuato,49397
+2022-05,Guerrero,22939
+2022-05,Hidalgo,74772
+2022-05,Jalisco,156326
+2022-05,Michoacán,23609
+2022-05,Morelos,49618
+2022-05,Nayarit,9474
+2022-05,Nuevo León,180905
+2022-05,OAXACA,1
+2022-05,Oaxaca,23769
+2022-05,Puebla,81671
+2022-05,Querétaro,58361
+2022-05,Quintana Roo,68336
+2022-05,SINALOA,1
+2022-05,San Luis Potosí,32434
+2022-05,Sinaloa,38909
+2022-05,Sonora,64584
+2022-05,Tabasco,33677
+2022-05,Tamaulipas,56389
+2022-05,Tlaxcala,6808
+2022-05,VeraCruz,1
+2022-05,Veracruz,74910
+2022-05,Yucatán,54247
+2022-05,Zacatecas,10717
+2022-05,baja California,2
+2022-05,baja california,1
+2022-05,ciudad de México,4
+2022-05,coahuila,1
+2022-05,durango,1
+2022-05,guerrero,1
+2022-05,jalisco,4
+2022-05,morelos,1031
+2022-05,oaxaca,2
+2022-05,puebla,2
+2022-05,quintana roo,1
+2022-05,sinaloa,3
+2022-05,sonora,2
+2022-05,veracruz,5
+2022-05,zacatecas,1
+2022-06,Aguascalientes,16673
+2022-06,Baja California,68239
+2022-06,CIUDAD DE MÉXICO,1
+2022-06,Campeche,9995
+2022-06,Chiapas,17806
+2022-06,Chihuahua,30134
+2022-06,Ciudad De México,8
+2022-06,Ciudad de México,404
+2022-06,Coahuila,32319
+2022-06,Colima,5757
+2022-06,Durango,15083
+2022-06,Estado De México,2
+2022-06,Estado de México,40
+2022-06,Guanajuato,48971
+2022-06,Guerrero,19493
+2022-06,Hidalgo,68651
+2022-06,Jalisco,146296
+2022-06,Michoacán,20263
+2022-06,Morelos,47391
+2022-06,Nayarit,10369
+2022-06,Nuevo León,168057
+2022-06,Oaxaca,21858
+2022-06,PUEBLA,1
+2022-06,Puebla,74117
+2022-06,Querétaro,49006
+2022-06,Quintana Roo,63475
+2022-06,SONORA,1
+2022-06,San Luis Potosí,29567
+2022-06,Sinaloa,35259
+2022-06,Sonora,57714
+2022-06,Tabasco,29552
+2022-06,Tamaulipas,42403
+2022-06,Tlaxcala,6520
+2022-06,VeraCruz,1
+2022-06,Veracruz,67270
+2022-06,Yucatán,49101
+2022-06,Zacatecas,8977
+2022-06,aguascalientes,1
+2022-06,baja California,1
+2022-06,campeche,2
+2022-06,guanajuato,2
+2022-06,jalisco,1
+2022-06,morelos,668
+2022-06,nayarit,2
+2022-06,puebla,1
+2022-06,quintana roo,5
+2022-06,sinaloa,3
+2022-06,sonora,2
+2022-06,veracruz,9
+2022-07,Aguascalientes,15901
+2022-07,Baja California,70471
+2022-07,Campeche,10513
+2022-07,Chiapas,17363
+2022-07,Chihuahua,31393
+2022-07,Ciudad De México,13
+2022-07,Ciudad de México,351
+2022-07,Coahuila,33226
+2022-07,Colima,6092
+2022-07,DURANGO,1
+2022-07,Durango,13593
+2022-07,Estado de México,23
+2022-07,Guanajuato,48367
+2022-07,Guerrero,18568
+2022-07,Hidalgo,63994
+2022-07,Jalisco,137032
+2022-07,MORELOS,1
+2022-07,Michoacán,20523
+2022-07,Morelos,49285
+2022-07,Nayarit,11670
+2022-07,Nuevo León,162216
+2022-07,OAXACA,1
+2022-07,Oaxaca,25090
+2022-07,Puebla,65064
+2022-07,Querétaro,54772
+2022-07,Quintana Roo,64020
+2022-07,San Luis Potosí,26709
+2022-07,Sinaloa,32915
+2022-07,Sonora,59145
+2022-07,Tabasco,30183
+2022-07,Tamaulipas,41322
+2022-07,Tlaxcala,5350
+2022-07,VeraCruz,1
+2022-07,Veracruz,69299
+2022-07,Yucatán,43536
+2022-07,Zacatecas,8620
+2022-07,baja california,1
+2022-07,chiapas,1
+2022-07,ciudad de México,2
+2022-07,durango,1
+2022-07,guerrero,1
+2022-07,jalisco,1
+2022-07,morelos,1683
+2022-07,oaxaca,1
+2022-07,puebla,2
+2022-07,quintana roo,3
+2022-07,sinaloa,10
+2022-07,sonora,3
+2022-07,tamaulipas,2
+2022-08,Aguascalientes,14525
+2022-08,Baja California,73825
+2022-08,CIUDAD DE MÉXICO,1
+2022-08,Campeche,10563
+2022-08,Chiapas,17661
+2022-08,Chihuahua,32056
+2022-08,Ciudad De México,7
+2022-08,Ciudad de México,480
+2022-08,Coahuila,35782
+2022-08,Colima,5864
+2022-08,Durango,12974
+2022-08,Estado De México,2
+2022-08,Estado de México,50
+2022-08,Guanajuato,51448
+2022-08,Guerrero,17427
+2022-08,Hidalgo,67067
+2022-08,Jalisco,142776
+2022-08,Michoacán,20601
+2022-08,Morelos,54348
+2022-08,Nayarit,11699
+2022-08,Nuevo León,172114
+2022-08,OAXACA,2
+2022-08,Oaxaca,22635
+2022-08,PUEBLA,1
+2022-08,Puebla,67939
+2022-08,Querétaro,56563
+2022-08,Quintana Roo,62248
+2022-08,San Luis Potosí,28775
+2022-08,Sinaloa,36653
+2022-08,Sonora,61828
+2022-08,Tabasco,26713
+2022-08,Tamaulipas,46261
+2022-08,Tlaxcala,7800
+2022-08,VeraCruz,1
+2022-08,Veracruz,66715
+2022-08,Yucatán,48679
+2022-08,Zacatecas,8318
+2022-08,baja california,1
+2022-08,ciudad de México,2
+2022-08,durango,5
+2022-08,guanajuato,1
+2022-08,guerrero,1
+2022-08,jalisco,3
+2022-08,morelos,894
+2022-08,nayarit,4
+2022-08,oaxaca,4
+2022-08,puebla,1
+2022-08,sinaloa,6
+2022-08,sonora,9
+2022-08,tamaulipas,2
+2022-08,veracruz,1
+2022-09,Aguascalientes,13818
+2022-09,Baja California,69239
+2022-09,Campeche,10208
+2022-09,Chiapas,19816
+2022-09,Chihuahua,30149
+2022-09,Ciudad De México,7
+2022-09,Ciudad de México,530
+2022-09,Coahuila,33199
+2022-09,Colima,6552
+2022-09,Durango,13261
+2022-09,ESTADO DE MÉXICO,1
+2022-09,Estado De México,3
+2022-09,Estado de México,64
+2022-09,Guanajuato,57552
+2022-09,Guerrero,16587
+2022-09,Hidalgo,66725
+2022-09,Jalisco,139717
+2022-09,Michoacán,21459
+2022-09,Morelos,45971
+2022-09,Nayarit,9610
+2022-09,Nuevo León,166028
+2022-09,Oaxaca,24304
+2022-09,Puebla,71875
+2022-09,Querétaro,54854
+2022-09,Quintana Roo,64333
+2022-09,San Luis Potosí,27751
+2022-09,Sinaloa,36956
+2022-09,Sonora,57441
+2022-09,Tabasco,27502
+2022-09,Tamaulipas,45296
+2022-09,Tlaxcala,6890
+2022-09,Veracruz,61518
+2022-09,Yucatán,50026
+2022-09,Zacatecas,8634
+2022-09,chiapas,1
+2022-09,ciudad de México,4
+2022-09,durango,5
+2022-09,hidalgo,1
+2022-09,jalisco,1
+2022-09,morelos,942
+2022-09,nayarit,1
+2022-09,puebla,11
+2022-09,quintana roo,1
+2022-09,sinaloa,2
+2022-09,sonora,2
+2022-09,tabasco,1
+2022-09,tamaulipas,1
+2022-09,tlaxcala,1
+2022-09,veracruz,5
+2022-10,Aguascalientes,14761
+2022-10,Baja California,70560
+2022-10,CIUDAD DE MÉXICO,1
+2022-10,Campeche,10750
+2022-10,Chiapas,17610
+2022-10,Chihuahua,30922
+2022-10,Ciudad De México,9
+2022-10,Ciudad de México,508
+2022-10,Coahuila,36244
+2022-10,Colima,7006
+2022-10,Durango,14395
+2022-10,Estado De México,8
+2022-10,Estado de México,71
+2022-10,Guanajuato,56485
+2022-10,Guerrero,17471
+2022-10,Hidalgo,75411
+2022-10,Jalisco,140949
+2022-10,Michoacán,22791
+2022-10,Morelos,46791
+2022-10,Nayarit,8350
+2022-10,Nuevo León,167610
+2022-10,OAXACA,1
+2022-10,Oaxaca,23365
+2022-10,Puebla,72768
+2022-10,Querétaro,50706
+2022-10,Quintana Roo,66353
+2022-10,SONORA,1
+2022-10,San Luis Potosí,27811
+2022-10,Sinaloa,39381
+2022-10,Sonora,54111
+2022-10,Tabasco,28087
+2022-10,Tamaulipas,42539
+2022-10,Tlaxcala,5123
+2022-10,VeraCruz,1
+2022-10,Veracruz,63520
+2022-10,Yucatán,49942
+2022-10,Zacatecas,7661
+2022-10,chihuahua,1
+2022-10,colima,1
+2022-10,durango,2
+2022-10,guanajuato,1
+2022-10,guerrero,1
+2022-10,hidalgo,1
+2022-10,jalisco,4
+2022-10,morelos,980
+2022-10,nayarit,2
+2022-10,oaxaca,2
+2022-10,puebla,2
+2022-10,quintana roo,2
+2022-10,sonora,3
+2022-10,veracruz,6
+2022-11,Aguascalientes,14756
+2022-11,Baja California,65843
+2022-11,CIUDAD DE MÉXICO,2
+2022-11,Campeche,11538
+2022-11,Chiapas,19355
+2022-11,Chihuahua,29017
+2022-11,Ciudad De México,5
+2022-11,Ciudad de México,507
+2022-11,Coahuila,36078
+2022-11,Colima,6157
+2022-11,Durango,12961
+2022-11,Estado De México,2
+2022-11,Estado de México,46
+2022-11,Guanajuato,52363
+2022-11,Guerrero,17132
+2022-11,Hidalgo,72220
+2022-11,Jalisco,145484
+2022-11,Michoacán,22542
+2022-11,Morelos,46923
+2022-11,Nayarit,10577
+2022-11,Nuevo León,154947
+2022-11,Oaxaca,22078
+2022-11,Puebla,69851
+2022-11,Querétaro,52728
+2022-11,Quintana Roo,64616
+2022-11,San Luis Potosí,29615
+2022-11,Sinaloa,35144
+2022-11,Sonora,52003
+2022-11,Tabasco,27378
+2022-11,Tamaulipas,42521
+2022-11,Tlaxcala,5059
+2022-11,Veracruz,61352
+2022-11,Yucatán,47783
+2022-11,Zacatecas,8197
+2022-11,baja California,4
+2022-11,chiapas,2
+2022-11,chihuahua,1
+2022-11,ciudad de México,7
+2022-11,coahuila,1
+2022-11,colima,1
+2022-11,durango,2
+2022-11,guanajuato,2
+2022-11,guerrero,1
+2022-11,hidalgo,2
+2022-11,jalisco,13
+2022-11,morelos,807
+2022-11,nayarit,1
+2022-11,oaxaca,21
+2022-11,puebla,3
+2022-11,sonora,3
+2022-11,tabasco,1
+2022-11,tamaulipas,1
+2022-11,tlaxcala,1
+2022-11,veracruz,7
+2022-12,Aguascalientes,12970
+2022-12,Baja California,61326
+2022-12,CIUDAD DE MÉXICO,3
+2022-12,Campeche,9165
+2022-12,Chiapas,17621
+2022-12,Chihuahua,26016
+2022-12,Ciudad De México,5
+2022-12,Ciudad de México,409
+2022-12,Coahuila,30990
+2022-12,Colima,6485
+2022-12,Durango,10845
+2022-12,Estado De México,3
+2022-12,Estado de México,43
+2022-12,Guanajuato,45482
+2022-12,Guerrero,17122
+2022-12,Hidalgo,57622
+2022-12,Jalisco,122333
+2022-12,MORELOS,2
+2022-12,Michoacán,19128
+2022-12,Morelos,42273
+2022-12,Nayarit,8748
+2022-12,Nuevo León,124417
+2022-12,Oaxaca,21531
+2022-12,Puebla,59088
+2022-12,QUERÉTARO,1
+2022-12,Querétaro,44794
+2022-12,Quintana Roo,56971
+2022-12,San Luis Potosí,25144
+2022-12,Sinaloa,32657
+2022-12,Sonora,47564
+2022-12,Tabasco,22875
+2022-12,Tamaulipas,35523
+2022-12,Tlaxcala,4200
+2022-12,Veracruz,58905
+2022-12,Yucatán,42239
+2022-12,Zacatecas,7772
+2022-12,chiapas,2
+2022-12,ciudad de México,3
+2022-12,durango,1
+2022-12,guanajuato,1
+2022-12,hidalgo,1
+2022-12,jalisco,6
+2022-12,morelos,529
+2022-12,oaxaca,3
+2022-12,puebla,1
+2022-12,sinaloa,1
+2022-12,sonora,2
+2022-12,tlaxcala,2
+2022-12,veracruz,8

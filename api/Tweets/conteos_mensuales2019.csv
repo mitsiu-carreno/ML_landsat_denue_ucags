@@ -1,0 +1,682 @@
+year_month,estado,conteo
+2019-01,Aguascalientes,25855
+2019-01,Baja California,92572
+2019-01,CIUDAD DE MÉXICO,1
+2019-01,Campeche,22218
+2019-01,Chiapas,36622
+2019-01,Chihuahua,43856
+2019-01,Ciudad De México,18
+2019-01,Ciudad de México,321
+2019-01,Coahuila,56422
+2019-01,Colima,12607
+2019-01,Durango,20923
+2019-01,ESTADO DE MÉXICO,1
+2019-01,Estado de México,32
+2019-01,Guanajuato,102191
+2019-01,Guerrero,33205
+2019-01,HIDALGO,1
+2019-01,Hidalgo,121674
+2019-01,Jalisco,232724
+2019-01,MORELOS,3
+2019-01,Michoacán,40769
+2019-01,Morelos,70797
+2019-01,Nayarit,12624
+2019-01,Nuevo León,282831
+2019-01,Oaxaca,38999
+2019-01,PUEBLA,1
+2019-01,Puebla,115866
+2019-01,Querétaro,85104
+2019-01,Quintana Roo,83425
+2019-01,SONORA,2
+2019-01,San Luis Potosí,40950
+2019-01,Sinaloa,81012
+2019-01,Sonora,109152
+2019-01,Tabasco,43607
+2019-01,Tamaulipas,69996
+2019-01,Tlaxcala,8694
+2019-01,VERACRUZ,1
+2019-01,VeraCruz,1
+2019-01,Veracruz,107279
+2019-01,Yucatán,66856
+2019-01,Zacatecas,17027
+2019-01,aguascalientes,2
+2019-01,baja California,2
+2019-01,baja california,1
+2019-01,chiapas,4
+2019-01,chihuahua,1
+2019-01,ciudad de México,1
+2019-01,colima,3
+2019-01,guanajuato,2
+2019-01,guerrero,1
+2019-01,hidalgo,6
+2019-01,jalisco,3
+2019-01,morelos,2135
+2019-01,nayarit,2
+2019-01,oaxaca,5
+2019-01,puebla,3
+2019-01,sinaloa,2
+2019-01,sonora,4
+2019-01,tabasco,1
+2019-01,tamaulipas,1
+2019-01,veracruz,11
+2019-02,Aguascalientes,19441
+2019-02,Baja California,74605
+2019-02,CIUDAD DE MÉXICO,2
+2019-02,Campeche,15862
+2019-02,Chiapas,28331
+2019-02,Chihuahua,34630
+2019-02,Ciudad De México,18
+2019-02,Ciudad de México,373
+2019-02,Coahuila,46435
+2019-02,Colima,11245
+2019-02,DURANGO,1
+2019-02,Durango,17306
+2019-02,ESTADO DE MÉXICO,1
+2019-02,Estado De México,3
+2019-02,Estado de México,38
+2019-02,Guanajuato,74203
+2019-02,Guerrero,24580
+2019-02,HIDALGO,1
+2019-02,Hidalgo,112564
+2019-02,Jalisco,185905
+2019-02,Michoacán,29557
+2019-02,Morelos,59417
+2019-02,Nayarit,11014
+2019-02,Nuevo León,252290
+2019-02,Oaxaca,30000
+2019-02,Puebla,105438
+2019-02,Querétaro,65098
+2019-02,Quintana Roo,68448
+2019-02,SONORA,6
+2019-02,San Luis Potosí,35800
+2019-02,Sinaloa,61843
+2019-02,Sonora,90494
+2019-02,Tabasco,34425
+2019-02,Tamaulipas,60201
+2019-02,Tlaxcala,6918
+2019-02,VeraCruz,1
+2019-02,Veracruz,88841
+2019-02,Yucatán,56946
+2019-02,Zacatecas,14186
+2019-02,baja California,1
+2019-02,baja california,1
+2019-02,campeche,2
+2019-02,chiapas,1
+2019-02,ciudad de México,4
+2019-02,coahuila,2
+2019-02,durango,1
+2019-02,guanajuato,2
+2019-02,hidalgo,3
+2019-02,jalisco,3
+2019-02,morelos,2022
+2019-02,oaxaca,5
+2019-02,puebla,8
+2019-02,sinaloa,3
+2019-02,sonora,1
+2019-02,tamaulipas,3
+2019-02,veracruz,6
+2019-03,Aguascalientes,19538
+2019-03,Baja California,71287
+2019-03,CIUDAD DE MÉXICO,1
+2019-03,Campeche,15255
+2019-03,Chiapas,27415
+2019-03,Chihuahua,36307
+2019-03,Ciudad De México,19
+2019-03,Ciudad de México,516
+2019-03,Coahuila,45034
+2019-03,Colima,9749
+2019-03,Durango,17047
+2019-03,Estado De México,4
+2019-03,Estado de México,67
+2019-03,Guanajuato,71274
+2019-03,Guerrero,24158
+2019-03,HIDALGO,1
+2019-03,Hidalgo,110382
+2019-03,Jalisco,173687
+2019-03,MORELOS,1
+2019-03,Michoacán,29528
+2019-03,Morelos,58136
+2019-03,Nayarit,10224
+2019-03,Nuevo León,249350
+2019-03,Nuevo león,3
+2019-03,Oaxaca,31344
+2019-03,PUEBLA,4
+2019-03,Puebla,102955
+2019-03,Querétaro,61446
+2019-03,Quintana Roo,78710
+2019-03,SONORA,5
+2019-03,San Luis Potosí,31989
+2019-03,Sinaloa,61067
+2019-03,Sonora,81515
+2019-03,Tabasco,32911
+2019-03,Tamaulipas,54764
+2019-03,Tlaxcala,6930
+2019-03,Veracruz,88948
+2019-03,Yucatán,59416
+2019-03,Zacatecas,14577
+2019-03,aguascalientes,1
+2019-03,baja california,2
+2019-03,campeche,1
+2019-03,chiapas,1
+2019-03,chihuahua,1
+2019-03,ciudad de México,8
+2019-03,coahuila,1
+2019-03,colima,3
+2019-03,guanajuato,1
+2019-03,hidalgo,4
+2019-03,jalisco,8
+2019-03,morelos,1800
+2019-03,nayarit,2
+2019-03,oaxaca,3
+2019-03,puebla,6
+2019-03,sinaloa,6
+2019-03,sonora,9
+2019-03,tabasco,1
+2019-03,tamaulipas,1
+2019-03,tlaxcala,1
+2019-03,veracruz,15
+2019-04,Aguascalientes,23324
+2019-04,Baja California,74021
+2019-04,CIUDAD DE MÉXICO,1
+2019-04,Campeche,16551
+2019-04,Chiapas,30273
+2019-04,Chihuahua,35648
+2019-04,Ciudad De México,8
+2019-04,Ciudad de México,390
+2019-04,Coahuila,46965
+2019-04,Colima,11024
+2019-04,DURANGO,1
+2019-04,Durango,18522
+2019-04,Estado De México,4
+2019-04,Estado de México,42
+2019-04,Guanajuato,72195
+2019-04,Guerrero,27562
+2019-04,Hidalgo,120626
+2019-04,Jalisco,181768
+2019-04,Michoacán,29120
+2019-04,Morelos,62402
+2019-04,Nayarit,11895
+2019-04,Nuevo León,246772
+2019-04,Oaxaca,29998
+2019-04,Puebla,106596
+2019-04,Querétaro,62380
+2019-04,Quintana Roo,72930
+2019-04,SONORA,3
+2019-04,San Luis Potosí,35829
+2019-04,Sinaloa,64142
+2019-04,Sonora,82951
+2019-04,Tabasco,36336
+2019-04,Tamaulipas,62882
+2019-04,Tlaxcala,7139
+2019-04,VERACRUZ,1
+2019-04,VeraCruz,1
+2019-04,Veracruz,96100
+2019-04,Yucatán,67341
+2019-04,Zacatecas,14918
+2019-04,aguascalientes,4
+2019-04,baja California,2
+2019-04,campeche,3
+2019-04,chiapas,1
+2019-04,chihuahua,1
+2019-04,ciudad de México,1
+2019-04,coahuila,2
+2019-04,colima,1
+2019-04,durango,3
+2019-04,guerrero,3
+2019-04,hidalgo,3
+2019-04,jalisco,5
+2019-04,morelos,2644
+2019-04,nayarit,1
+2019-04,oaxaca,5
+2019-04,puebla,5
+2019-04,quintana roo,1
+2019-04,sinaloa,3
+2019-04,sonora,4
+2019-04,tabasco,1
+2019-04,veracruz,9
+2019-04,zacatecas,1
+2019-05,Aguascalientes,25727
+2019-05,Baja California,77039
+2019-05,CIUDAD DE MÉXICO,2
+2019-05,Campeche,18436
+2019-05,Chiapas,31244
+2019-05,Chihuahua,36846
+2019-05,Ciudad De México,16
+2019-05,Ciudad de México,381
+2019-05,Coahuila,49664
+2019-05,Colima,11058
+2019-05,Durango,18245
+2019-05,Estado De México,5
+2019-05,Estado de México,60
+2019-05,Guanajuato,78477
+2019-05,Guerrero,23914
+2019-05,Hidalgo,117117
+2019-05,Jalisco,200479
+2019-05,Michoacán,28907
+2019-05,Morelos,54792
+2019-05,Nayarit,10421
+2019-05,Nuevo León,285941
+2019-05,Oaxaca,27647
+2019-05,Puebla,103738
+2019-05,Querétaro,69028
+2019-05,Quintana Roo,78125
+2019-05,SONORA,2
+2019-05,San Luis Potosí,37031
+2019-05,Sinaloa,66781
+2019-05,Sonora,95468
+2019-05,TLAXCALA,1
+2019-05,Tabasco,40551
+2019-05,Tamaulipas,67455
+2019-05,Tlaxcala,7701
+2019-05,VeraCruz,1
+2019-05,Veracruz,93747
+2019-05,Yucatán,66327
+2019-05,Zacatecas,13983
+2019-05,chiapas,1
+2019-05,chihuahua,3
+2019-05,ciudad de México,6
+2019-05,colima,2
+2019-05,durango,2
+2019-05,guanajuato,1
+2019-05,guerrero,2
+2019-05,hidalgo,2
+2019-05,jalisco,15
+2019-05,michoacán,1
+2019-05,morelos,1707
+2019-05,oaxaca,5
+2019-05,puebla,10
+2019-05,querétaro,1
+2019-05,sinaloa,4
+2019-05,sonora,6
+2019-05,tabasco,1
+2019-05,tamaulipas,1
+2019-05,veracruz,10
+2019-06,Aguascalientes,23147
+2019-06,Baja California,76027
+2019-06,CIUDAD DE MÉXICO,2
+2019-06,Campeche,15523
+2019-06,Chiapas,28843
+2019-06,Chihuahua,32629
+2019-06,Ciudad De México,21
+2019-06,Ciudad de México,474
+2019-06,Coahuila,46872
+2019-06,Colima,14146
+2019-06,Durango,16382
+2019-06,Estado De México,1
+2019-06,Estado de México,56
+2019-06,Guanajuato,69288
+2019-06,Guerrero,24203
+2019-06,Hidalgo,104659
+2019-06,Jalisco,185939
+2019-06,MORELOS,1
+2019-06,Michoacán,27169
+2019-06,Morelos,56198
+2019-06,Nayarit,11715
+2019-06,Nuevo León,241852
+2019-06,OAXACA,1
+2019-06,Oaxaca,26747
+2019-06,PUEBLA,3
+2019-06,Puebla,98397
+2019-06,Querétaro,62498
+2019-06,Quintana Roo,76634
+2019-06,San Luis Potosí,35530
+2019-06,Sinaloa,63974
+2019-06,Sonora,88625
+2019-06,TABASCO,8
+2019-06,TLAXCALA,1
+2019-06,Tabasco,36378
+2019-06,Tamaulipas,61579
+2019-06,Tlaxcala,7365
+2019-06,VERACRUZ,1
+2019-06,Veracruz,88232
+2019-06,Yucatán,61116
+2019-06,Zacatecas,13489
+2019-06,baja California,1
+2019-06,chiapas,1
+2019-06,chihuahua,1
+2019-06,ciudad de México,4
+2019-06,coahuila,1
+2019-06,colima,1
+2019-06,guerrero,1
+2019-06,hidalgo,2
+2019-06,jalisco,4
+2019-06,morelos,965
+2019-06,nayarit,2
+2019-06,oaxaca,6
+2019-06,puebla,5
+2019-06,quintana roo,1
+2019-06,sinaloa,3
+2019-06,sonora,1
+2019-06,veracruz,4
+2019-06,zacatecas,1
+2019-07,Aguascalientes,23246
+2019-07,Baja California,81375
+2019-07,CIUDAD DE MÉXICO,2
+2019-07,Campeche,16931
+2019-07,Chiapas,31231
+2019-07,Chihuahua,38539
+2019-07,Ciudad De México,6
+2019-07,Ciudad de México,606
+2019-07,Coahuila,51254
+2019-07,Colima,12224
+2019-07,DURANGO,1
+2019-07,Durango,19681
+2019-07,Estado De México,5
+2019-07,Estado de México,52
+2019-07,Guanajuato,74354
+2019-07,Guerrero,28175
+2019-07,Hidalgo,108563
+2019-07,Jalisco,194415
+2019-07,MORELOS,1
+2019-07,Michoacán,27856
+2019-07,Morelos,56260
+2019-07,Nayarit,13893
+2019-07,Nuevo León,258348
+2019-07,Oaxaca,31047
+2019-07,PUEBLA,1
+2019-07,Puebla,97576
+2019-07,Querétaro,62895
+2019-07,Quintana Roo,85759
+2019-07,San Luis Potosí,39630
+2019-07,Sinaloa,66586
+2019-07,Sonora,94157
+2019-07,Tabasco,42616
+2019-07,Tamaulipas,64187
+2019-07,Tlaxcala,8080
+2019-07,VeraCruz,1
+2019-07,Veracruz,97684
+2019-07,Yucatán,67323
+2019-07,Zacatecas,15639
+2019-07,baja California,1
+2019-07,campeche,1
+2019-07,chihuahua,1
+2019-07,ciudad de México,4
+2019-07,guanajuato,1
+2019-07,guerrero,2
+2019-07,hidalgo,2
+2019-07,jalisco,7
+2019-07,morelos,1390
+2019-07,nayarit,7
+2019-07,oaxaca,3
+2019-07,puebla,7
+2019-07,quintana roo,3
+2019-07,sinaloa,2
+2019-07,sonora,5
+2019-07,tabasco,1
+2019-07,tamaulipas,2
+2019-07,tlaxcala,1
+2019-07,veracruz,7
+2019-08,Aguascalientes,21878
+2019-08,Baja California,75019
+2019-08,CIUDAD DE MÉXICO,1
+2019-08,Campeche,16326
+2019-08,Chiapas,29914
+2019-08,Chihuahua,37521
+2019-08,Ciudad De México,14
+2019-08,Ciudad de México,869
+2019-08,Coahuila,50328
+2019-08,Colima,11754
+2019-08,DURANGO,2
+2019-08,Durango,18215
+2019-08,Estado De México,8
+2019-08,Estado de México,113
+2019-08,Guanajuato,72987
+2019-08,Guerrero,24355
+2019-08,Hidalgo,104368
+2019-08,Jalisco,178935
+2019-08,Michoacán,26728
+2019-08,Morelos,56487
+2019-08,Nayarit,12903
+2019-08,Nuevo León,273102
+2019-08,Oaxaca,26304
+2019-08,PUEBLA,2
+2019-08,Puebla,106089
+2019-08,Querétaro,63763
+2019-08,Quintana Roo,76262
+2019-08,SONORA,3
+2019-08,San Luis Potosí,39770
+2019-08,Sinaloa,67512
+2019-08,Sonora,93533
+2019-08,Tabasco,46707
+2019-08,Tamaulipas,65760
+2019-08,Tlaxcala,7991
+2019-08,VERACRUZ,1
+2019-08,Veracruz,93960
+2019-08,Yucatán,65544
+2019-08,Zacatecas,14494
+2019-08,chiapas,1
+2019-08,ciudad de México,8
+2019-08,durango,1
+2019-08,guanajuato,1
+2019-08,guerrero,2
+2019-08,jalisco,7
+2019-08,morelos,3098
+2019-08,nayarit,2
+2019-08,oaxaca,1
+2019-08,puebla,6
+2019-08,sinaloa,3
+2019-08,sonora,2
+2019-08,tabasco,1
+2019-08,tamaulipas,3
+2019-08,veracruz,3
+2019-09,Aguascalientes,18987
+2019-09,Baja California,68523
+2019-09,CIUDAD DE MÉXICO,1
+2019-09,Campeche,16179
+2019-09,Chiapas,28435
+2019-09,Chihuahua,34003
+2019-09,Ciudad De México,16
+2019-09,Ciudad de México,699
+2019-09,Coahuila,46576
+2019-09,Colima,10912
+2019-09,DURANGO,1
+2019-09,Durango,18161
+2019-09,Estado De México,8
+2019-09,Estado de México,87
+2019-09,Guanajuato,72003
+2019-09,Guerrero,23946
+2019-09,Hidalgo,95478
+2019-09,Jalisco,173712
+2019-09,Michoacán,24440
+2019-09,Morelos,53388
+2019-09,Nayarit,9930
+2019-09,Nuevo León,260321
+2019-09,Nuevo león,1
+2019-09,Oaxaca,24791
+2019-09,Puebla,102118
+2019-09,Querétaro,59795
+2019-09,Quintana Roo,63833
+2019-09,SONORA,3
+2019-09,San Luis Potosí,35826
+2019-09,Sinaloa,61699
+2019-09,Sonora,86511
+2019-09,Tabasco,40132
+2019-09,Tamaulipas,63204
+2019-09,Tlaxcala,6177
+2019-09,VeraCruz,2
+2019-09,Veracruz,84970
+2019-09,Yucatán,65979
+2019-09,Zacatecas,13936
+2019-09,ciudad de México,2
+2019-09,durango,1
+2019-09,guanajuato,4
+2019-09,guerrero,2
+2019-09,hidalgo,5
+2019-09,jalisco,6
+2019-09,michoacán,1
+2019-09,morelos,2608
+2019-09,nayarit,1
+2019-09,oaxaca,3
+2019-09,puebla,2
+2019-09,sinaloa,1
+2019-09,sonora,2
+2019-09,tabasco,1
+2019-09,veracruz,1
+2019-10,Aguascalientes,20327
+2019-10,Baja California,75099
+2019-10,CIUDAD DE MÉXICO,3
+2019-10,Campeche,14822
+2019-10,Chiapas,28821
+2019-10,Chihuahua,37765
+2019-10,Ciudad De México,13
+2019-10,Ciudad de México,747
+2019-10,Coahuila,45823
+2019-10,Colima,10609
+2019-10,Durango,18421
+2019-10,Estado De México,8
+2019-10,Estado de México,119
+2019-10,Guanajuato,72095
+2019-10,Guerrero,23387
+2019-10,Hidalgo,104622
+2019-10,JALISCO,4
+2019-10,Jalisco,188251
+2019-10,Michoacán,26851
+2019-10,Morelos,50304
+2019-10,Nayarit,10615
+2019-10,Nuevo León,263873
+2019-10,Oaxaca,27347
+2019-10,Puebla,110015
+2019-10,Querétaro,59985
+2019-10,Quintana Roo,66330
+2019-10,SONORA,2
+2019-10,San Luis Potosí,39488
+2019-10,Sinaloa,66372
+2019-10,Sonora,90474
+2019-10,Tabasco,41328
+2019-10,Tamaulipas,62098
+2019-10,Tlaxcala,7056
+2019-10,Veracruz,88773
+2019-10,Yucatán,66319
+2019-10,Zacatecas,13480
+2019-10,baja California,1
+2019-10,baja california,1
+2019-10,chiapas,2
+2019-10,chihuahua,1
+2019-10,ciudad de México,8
+2019-10,coahuila,1
+2019-10,durango,1
+2019-10,guanajuato,2
+2019-10,guerrero,1
+2019-10,hidalgo,2
+2019-10,jalisco,11
+2019-10,michoacán,1
+2019-10,morelos,2542
+2019-10,nayarit,1
+2019-10,oaxaca,1
+2019-10,puebla,7
+2019-10,quintana roo,2
+2019-10,sonora,3
+2019-10,tamaulipas,2
+2019-10,veracruz,2
+2019-11,AGUASCALIENTES,1
+2019-11,Aguascalientes,20430
+2019-11,Baja California,71431
+2019-11,CIUDAD DE MÉXICO,3
+2019-11,Campeche,15206
+2019-11,Chiapas,27574
+2019-11,Chihuahua,35217
+2019-11,Ciudad De México,7
+2019-11,Ciudad de México,564
+2019-11,Coahuila,44298
+2019-11,Colima,11185
+2019-11,Durango,18209
+2019-11,Estado De México,11
+2019-11,Estado de México,61
+2019-11,Guanajuato,72071
+2019-11,Guerrero,23364
+2019-11,Hidalgo,102107
+2019-11,Jalisco,183048
+2019-11,Michoacán,25015
+2019-11,Morelos,49838
+2019-11,Nayarit,10245
+2019-11,Nuevo León,245141
+2019-11,Oaxaca,28911
+2019-11,Puebla,99217
+2019-11,Querétaro,60717
+2019-11,Quintana Roo,64132
+2019-11,San Luis Potosí,34369
+2019-11,Sinaloa,62020
+2019-11,Sonora,87755
+2019-11,Tabasco,41501
+2019-11,Tamaulipas,58157
+2019-11,Tlaxcala,7844
+2019-11,VERACRUZ,1
+2019-11,VeraCruz,1
+2019-11,Veracruz,82341
+2019-11,Yucatán,63782
+2019-11,ZACATECAS,1
+2019-11,Zacatecas,11247
+2019-11,aguascalientes,1
+2019-11,campeche,1
+2019-11,chiapas,2
+2019-11,chihuahua,1
+2019-11,ciudad de México,5
+2019-11,coahuila,1
+2019-11,guanajuato,3
+2019-11,guerrero,1
+2019-11,jalisco,8
+2019-11,michoacán,1
+2019-11,morelos,1637
+2019-11,nayarit,1
+2019-11,oaxaca,4
+2019-11,puebla,6
+2019-11,sinaloa,2
+2019-11,sonora,2
+2019-11,veracruz,3
+2019-11,zacatecas,1
+2019-12,Aguascalientes,20843
+2019-12,Baja California,67757
+2019-12,CIUDAD DE MÉXICO,2
+2019-12,Campeche,14550
+2019-12,Chiapas,29586
+2019-12,Chihuahua,36503
+2019-12,Ciudad De México,18
+2019-12,Ciudad de México,737
+2019-12,Coahuila,45536
+2019-12,Colima,12235
+2019-12,Durango,17971
+2019-12,Estado De México,14
+2019-12,Estado de México,31
+2019-12,Guanajuato,71126
+2019-12,Guerrero,28769
+2019-12,HIDALGO,3
+2019-12,Hidalgo,93762
+2019-12,Jalisco,178626
+2019-12,MORELOS,1
+2019-12,Michoacán,30051
+2019-12,Morelos,51186
+2019-12,Nayarit,13414
+2019-12,Nuevo León,236780
+2019-12,Oaxaca,29977
+2019-12,PUEBLA,1
+2019-12,Puebla,91187
+2019-12,Querétaro,56038
+2019-12,Quintana Roo,69456
+2019-12,SONORA,1
+2019-12,San Luis Potosí,33299
+2019-12,Sinaloa,64074
+2019-12,Sonora,82981
+2019-12,Tabasco,41943
+2019-12,Tamaulipas,58143
+2019-12,Tlaxcala,7579
+2019-12,Veracruz,84210
+2019-12,Yucatán,61779
+2019-12,Zacatecas,12688
+2019-12,campeche,1
+2019-12,chiapas,2
+2019-12,ciudad de México,4
+2019-12,colima,1
+2019-12,guanajuato,3
+2019-12,guerrero,1
+2019-12,hidalgo,14
+2019-12,jalisco,9
+2019-12,michoacán,1
+2019-12,morelos,832
+2019-12,oaxaca,2
+2019-12,puebla,7
+2019-12,sinaloa,3
+2019-12,sonora,4
+2019-12,tabasco,1
+2019-12,tamaulipas,3
+2019-12,tlaxcala,2
+2019-12,veracruz,5
