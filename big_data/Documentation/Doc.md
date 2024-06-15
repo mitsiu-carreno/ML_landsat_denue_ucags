@@ -151,7 +151,7 @@ En la interpretación de los resultados, se llevó a cabo una comparación exhau
 
 Los resultados muestran la evolución en el número total de tweets publicados en México entre los años 2019 y 2022. En 2019, se registró un total de 29,028,846 tweets, marcando el año con la mayor actividad en la plataforma durante el periodo observado. Sin embargo, en 2020, se produjo una notable disminución, con el total de tweets reduciéndose a 27,135,355. Esta tendencia descendente continuó en 2021, cuando el número de tweets cayó significativamente a 20,460,623, representando una caída pronunciada en comparación con el año anterior. En 2022, aunque la cifra de tweets se mantuvo relativamente estable respecto al año anterior, hubo un leve aumento, alcanzando un total de 20,923,258 tweets. Estos datos sugieren una variabilidad en el uso de Twitter en México, con un pico inicial en 2019 seguido de una reducción sustancial en los años siguientes. Las fluctuaciones podrían estar relacionadas con diversos factores, incluyendo cambios en las políticas de la plataforma, la aparición de nuevas redes sociales, o incluso el impacto de eventos globales y nacionales que pudieron influir en el comportamiento de los usuarios.
 
-![](/ML_landsat_denue_ucags/big_data/Documentation/images/Gráfico1.png)
+![](/big_data/Documentation/images/Gráfica1.png)
 
 Gráfica 1
 
