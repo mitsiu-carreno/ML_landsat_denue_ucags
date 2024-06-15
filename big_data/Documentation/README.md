@@ -18,25 +18,25 @@
 
 [**Resumen**](#Resumen)
 
-[**Introducción**](#_er32msigglby)
+[**Introducción**](#Introducción)
 
-[**Planteamiento del problema**](#_6tb1kpalhpy0)
+[**Planteamiento del problema**](#planteamiento-del-problema)
 
-[**Pregunta de investigación e hipótesis**](#_96kgom9t9it2)
+[**Pregunta de investigación e hipótesis**](#pregunta-de-investigación-e-hipótesis)
 
-[**Objetivo de la investigación**](#_mrxuyaun6izm)
+[**Objetivo de la investigación**](#objetivo-de-la-investigación)
 
-[**Relevancia del estudio**](#_i1y64t2dy1mq)
+[**Relevancia del estudio**](#relevancia-del-estudio)
 
-[**Metodología**](#_jkawuu295bge)
+[**Metodología**](#metodología)
 
-[**Resultados**](#_x90hq5qtx1yd)
+[**Resultados**](#resultados)
 
-[**Discusión**](#_szrlypxmg8ge)
+[**Discusión**](#discusión)
 
-[**Conclusión**](#_gjbviyx9ugqs)
+[**Conclusión**](#conclusión)
 
-[**Referencias**](#_s4rzwk80n12s)
+[**Referencias**](#referencias)
 
 
 # **Resumen**
@@ -46,8 +46,6 @@ Este estudio busca analizar la fluctuación de la actividad en redes sociales en
 En México, las redes sociales se han convertido en una herramienta esencial para la promoción de destinos turísticos (El economista, 2021). Los investigadores han destacado el potencial de las redes sociales para enriquecer el conocimiento y la gestión del turismo (Redalyc, 2024).
 
 La pandemia de COVID-19 ha tenido un impacto significativo en la industria del turismo a nivel global. Las restricciones de viaje y las medidas de distanciamiento social implementadas para frenar la propagación del virus han llevado a una disminución drástica de la actividad turística (Banco de México, 2021). En México, los destinos turísticos populares han experimentado una caída en la llegada de visitantes, afectando a las economías locales dependientes del turismo. Sin embargo, la pandemia también ha llevado a cambios en las preferencias y comportamientos de los viajeros. Algunos viajeros han optado por destinos más cercanos a casa o han buscado experiencias al aire libre para minimizar el riesgo de infección. Estos cambios pueden tener implicaciones a largo plazo para la industria del turismo.
-
-#
 
 # **Introducción:**
 
@@ -222,10 +220,6 @@ Para construir sobre los hallazgos de este estudio y abordar sus limitaciones, s
 3. Períodos de Estudio Extendidos: Ampliar el período de estudio para incluir datos previos y posteriores a la pandemia, lo que permitiría un análisis más completo de las tendencias a largo plazo y los efectos prolongados de eventos globales.
 4. Metodologías Mixtas: Complementar el análisis de big data con métodos cualitativos, como encuestas y entrevistas, para obtener una comprensión más profunda de las motivaciones y experiencias de los turistas.
 5. Evaluación de Políticas Públicas: Investigar cómo las políticas gubernamentales específicas durante la pandemia afectaron la actividad turística y la respuesta de los usuarios en redes sociales, proporcionando información valiosa para la planificación de futuras crisis.
-
-#
-
-#
 
 # **Referencias**
 
