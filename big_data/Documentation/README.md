@@ -16,7 +16,7 @@
 
 **Contenido**
 
-[**Resumen**](# Resumen)
+[**Resumen**](#Resumen)
 
 [**Introducción**](#_er32msigglby)
 
