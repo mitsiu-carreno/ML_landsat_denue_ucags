@@ -14,27 +14,27 @@
 
 **Contenido**
 
-[**Resumen 3**](#_zgdysi470n2v)
+[**Resumen **](#_zgdysi470n2v)
 
-[**Introducción: 4**](#_er32msigglby)
+[**Introducción: **](#_er32msigglby)
 
-[**Planteamiento del problema 5**](#_6tb1kpalhpy0)
+[**Planteamiento del problema **](#_6tb1kpalhpy0)
 
-[**Pregunta de investigación e hipótesis 6**](#_96kgom9t9it2)
+[**Pregunta de investigación e hipótesis **](#_96kgom9t9it2)
 
-[**Objetivo de la investigación 6**](#_mrxuyaun6izm)
+[**Objetivo de la investigación **](#_mrxuyaun6izm)
 
-[**Relevancia del estudio 7**](#_i1y64t2dy1mq)
+[**Relevancia del estudio **](#_i1y64t2dy1mq)
 
-[**Metodología 11**](#_jkawuu295bge)
+[**Metodología **](#_jkawuu295bge)
 
-[**Resultados 15**](#_x90hq5qtx1yd)
+[**Resultados **](#_x90hq5qtx1yd)
 
-[**Discusión 18**](#_szrlypxmg8ge)
+[**Discusión **](#_szrlypxmg8ge)
 
-[**Conclusión 20**](#_gjbviyx9ugqs)
+[**Conclusión **](#_gjbviyx9ugqs)
 
-[**Referencias 23**](#_s4rzwk80n12s)
+[**Referencias **](#_s4rzwk80n12s)
 
 #
 
