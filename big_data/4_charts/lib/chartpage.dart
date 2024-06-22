@@ -111,7 +111,7 @@ class _ChartPageState extends State<ChartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Cantidad de Tweets'),
+        title: const Text('Cantidad de Mensajes'),
         backgroundColor: Colors.indigo,
       ),
       body: Padding(
@@ -175,7 +175,7 @@ class _ChartPageState extends State<ChartPage> {
                   child: SfCartesianChart(
                     title: ChartTitle(
                         text:
-                            "Cantidad de Tweets por Mes en: $selectedState_Copy durante el año: $selectedYear_Copy"),
+                            "Cantidad de Mensajes por Mes en: $selectedState_Copy durante el año: $selectedYear_Copy"),
                     primaryXAxis: const CategoryAxis(
                       title: AxisTitle(text: 'Mes'),
                     ),
