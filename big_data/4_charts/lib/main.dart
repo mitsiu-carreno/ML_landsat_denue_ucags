@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map_geojson/flutter_map_geojson.dart';
-import 'package:get/get.dart';
-import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'package:latlong2/latlong.dart';
 import 'package:geojson_vi/geojson_vi.dart';
@@ -35,7 +33,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/second': (context) => ChartPage(),
+        '/second': (context) => const ChartPage(),
       },
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -96,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: Text('Información del Estado'),
+            title: const Text('Información del Estado'),
             content: Text(
                 'Estado: ${stateName.contains("México") && stateName != "Ciudad de México" ? "Estado de México" : stateName}\nMensajes: ${data?.mensajes}\n'),
             actions: <Widget>[
@@ -371,7 +369,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: FlutterMap(
         mapController: mapController,
         options: MapOptions(
-          initialCenter: LatLng(21.882976289200855, -102.2944978103986),
+          initialCenter: const LatLng(21.882976289200855, -102.2944978103986),
           //center: LatLng(45.720405218, 14.406593302),
           initialZoom: 5,
           onTap: (tapPosition, latLng) =>
@@ -397,7 +395,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Navigator.pushNamed(context, '/second');
         },
         tooltip: 'Ir a la Gráfica',
-        child: Icon(Icons.access_time),
+        child: const Icon(Icons.access_time),
       ),
     );
   }
